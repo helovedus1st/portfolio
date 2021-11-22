@@ -29,30 +29,35 @@ body {
 body {
   margin: 0;
   padding: 0;
-  font-weight: 600;
+  font-weight: 100;
   line-height: 1.5;
   font-size: 18px;
   letter-spacing: 0.1em;
-  background: var(--darker);
-  color: var(--light);
-  font-family: 'Open Sans', sans-serif;
+  background: black;
+  color: #ff3336;
+  font-family: 'JetBrains Mono', monospace;
 }
 
-h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: 'Aladin', cursive;
-  font-weight: 500;
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 700;
   margin: 5px 0;
   line-height: 1.25;
+  color: #4d4cff;
 }
 
 h1 {
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 700;
+  font-style: italic;
+  line-height: 1.25;
   font-size: 5rem;
   margin: 50px 20px;
+  color: #00bf00;
   text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
@@ -147,6 +152,7 @@ input {
   outline: none;
   border-radius: 3px;
   transition: box-shadow 0.2s;
+  background-color:#8080ff;
 }
 
 input:focus {
@@ -163,7 +169,7 @@ li {
 }
 
 header {
-  height: 200px;
+  height: 325px;
   position: relative;
   overflow: hidden;
   z-index: 2;
@@ -177,17 +183,18 @@ header h1 {
 header img {
   z-index: 0;
   position: absolute;
-  top: 0;
+  bottom: 0;
   left: 0;
   height: auto;
-  filter: sepia(1) opacity(60%);
-  opacity: 0.5;
+  min-width: 100%;
 }
 
 nav {
   position: relative;
-  font-family: 'Aladin', cursive;
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 600;
   font-size: 2.5rem;
+  font-style: italic;
   margin: 30px 20px;
 }
 
@@ -199,6 +206,7 @@ nav li {
   cursor: pointer;
   text-shadow: 2px 2px 10px rgba(0,0,0, 0.5);
   margin: 0 50px;
+  color: #4d4cff;
 }
 
 ul.skills {
@@ -231,6 +239,7 @@ textarea {
   border: 3px solid #cccccc;
   padding: 5px;
   margin-top: 10px;
+  background-color: #8080ff;
 }
 
 .container {
@@ -290,6 +299,10 @@ textarea {
 .px-2 {
   padding-right: var(--spacing-two);
   padding-left: var(--spacing-two);
+}
+
+.pl-5 {
+  padding-left: var(--spacing-five);
 }
 
 .py-1 {
@@ -356,7 +369,7 @@ textarea {
 }
 
 .navActive {
-  color: var(--secondary);
+  color: #8080ff;
   cursor: default;
   text-shadow: 3px 3px 15px rgba(255,255,255, .5);
 }
