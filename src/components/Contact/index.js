@@ -42,6 +42,11 @@ function Contact() {
 
   return (
     <section>
+
+
+      <a href="tel:+13527941655">(352) 794-1655</a><br></br>
+      <a href="mailto:jc-renner@lu-tec.com">jc-renner@lu-tec.com</a><br></br><br></br>
+
       <form id="contact-form" onSubmit={handleSubmit}>
         <div>
           <label htmlFor="name">Name:</label>

@@ -6,15 +6,15 @@ function Footer() {
   const icons = [
     {
       name: "fab fa-github",
-      link: "https://github.com/"
+      link: "https://github.com/helovedus1st"
     },
     {
       name: "fab fa-linkedin",
-      link: "https://www.linkedin.com/"
+      link: "https://www.linkedin.com/in/hluf/"
     },
     {
-      name: "fab fa-stack-overflow",
-      link: "https://stackoverflow.com/"
+      name: "fab fa-behance",
+      link: "https://www.behance.net/jre856"
     }
   ]
 

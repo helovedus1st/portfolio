@@ -7,12 +7,15 @@ function About() {
         <div className="profile-img my-5">
         <i className="fas fa-user-circle" style={{ fontSize: "96px" }}></i>
         </div>
+        
         <p>
-        Helvetica put a bird on it church-key Blue Bottle banjo bespoke brunch Etsy authentic Marfa quinoa typewriter plaid direct trade small batch wayfarers bicycle rights cliche craft beer gastropub single-origin coffee Godard Carles you probably haven't heard of them irony pickled kitsch synth sriracha gentrify literally heirloom blog Truffaut paleo scenester
+          I am a full stack web developer who graduated from UCF's Coding Bootcamp in December 2021.
+          <br></br>
+          I am also the CEO of <a href="http://lutherantech.com/"  rel="noreferrer noreferrer" target="_blank">Lutheran Tech</a>, a niche-oriented web&#47;graphics design and marketing company, and have been in that role since 2016.
         </p>
         <p>
-        Echo Park sriracha Pinterest vegan biodiesel 90's irony iPhone Kickstarter Carles crucifix kitsch narwhal dreamcatcher pickled trust fund selvage art party letterpress Tumblr post-ironic kogi Thundercats Tonx Brooklyn Pitchfork Odd Future authentic normcore freegan leggings Schlitz chambray organic tousled retro fap squid street art church-key fashion axe Wes Anderson bespoke whatever gentrify banh mi you probably haven't heard of them American Apparel next level pug ugh.
-        </p>
+          Prior to becoming a coder, I worked as a graphic designer and a communications and marketing expert, and I have over 15 years experience in these combined fields.
+      </p>
       </div>
     </section>
   );
